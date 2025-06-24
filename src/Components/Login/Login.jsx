@@ -1,8 +1,8 @@
-import styles from '../../pages/Auth/Auth.module.css';
+import styles from '../../Pages/Auth/Auth.module.css';
 import { useContext, useRef, useState } from 'react';
 import { AuthContext } from '../../Context/Context';
 import { Type } from '../../Utility/actionType';
-import axiosInstance from '../../Api/axiosConfig';
+import axiosInstance from '../../api/axiosConfig';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaEye, FaEyeSlash } from 'react-icons/fa6';
 import { toast } from 'react-toastify';
